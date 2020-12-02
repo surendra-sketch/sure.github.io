@@ -1,0 +1,73 @@
+body { font-family: 'Alata', sans-serif;
+font-size:16px;
+color:#fff;
+background-color:#61122f;
+font-family: 'Libre Caslon Display', serif;
+}
+nav { background-color:yellow;
+height:100px;}
+
+#header-nav{ background-color:#f6b319;
+border-radius:0;
+border:0;
+}
+
+#logo-img{ background:url("file:///storage/emulated/0/Download/5bb9e3439ecb0f1f971a76c6.png") no-repeat; width:100px;height:100px;
+}
+img{height:50px;width:50px;}
+.pic{ height:600px; width:600px;
+padding:0;
+margin:0;}
+.my { padding-left:150px;}
+
+.myy { padding-left:150px;
+margin-bottom:100px;
+}
+
+#menu-title,#specials-title,#map-title{
+height:250px;width:100px;margin-bottom:15px;position:relative;border:2px solid red;overflow:hidden;}
+#menu-title:hover,#specials-title:hover,#map-title:hover{
+box-shadow: 0 1px 5px 1px black;
+}
+#menu-title{ background:url("file:///storage/emulated/0/Download/1024px-Petrus_(London)_Kitchen.jpg") no-repeat;background-position:center;width:200px;}
+
+#specials-title{ background:url("file:///storage/emulated/0/Download/images%20(11).jpeg") no-repeat;background-position:center;
+width:200px;}
+
+#menu-title span,#specials-title span,#map-title span{
+ position:absolute;bottom:0;right:0;width:100%;text-align:center;font-size:1.6em;background-color:#000;
+ color:#fff;
+ opacity:.8;}
+
+@media (min-width:1200px)
+{.navbar-brand { padding-top:10px;height:80px;}
+.navbar-brand h1{ padding-top:10px; font-size:5vw;}
+.navbar-brand p{ text-transform:uppercase;
+font-size:.6em;
+margin-top:72px;}
+.navbar-brand p img{ height:20px;}
+#collapsable-nav a{font-size:1.1em}
+#collapsable-nav a span{ font-size:1em; margin-right:5px;}}
+
+@media(max-width:952px) and (min-width:1199px){
+.jumbotron{background:url("file:///storage/emulated/0/Download/images%20(11).jpeg") no-repeat;
+padding:0;
+
+}
+}
+
+@media (max-width:767px) { 
+.jumbotron { 
+background:url("file:///storage/emulated/0/Download/images%20(11).jpeg") no-repeat;
+margin-top:30px;
+padding:0;
+box-shadow:  0 0 50px green;
+border:2px solid blue;
+
+} 
+}
+
+
+
+
+
